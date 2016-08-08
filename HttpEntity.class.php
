@@ -1,0 +1,9 @@
+<?php
+
+class HttpEntity{
+    
+    private $buffer;
+    function getBody(){
+        return $this->buffer;
+    }
+}
